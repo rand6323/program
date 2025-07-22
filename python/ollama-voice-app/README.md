@@ -9,6 +9,19 @@
 - 設定画面からモデル・話者・速度などを変更可能
 - モデル一覧は初回のみ取得しキャッシュされます
 
+## 使用技術
+
+- Python 3.10
+- Flask
+- VOICEVOX (音声合成エンジン)
+- Ollama (AI モデル)
+
+## 必要なソフトウェア
+
+- [VOICEVOX](https://voicevox.hiroshiba.jp/)
+  - VOICEVOXは、音声合成エンジンであり、音声合成のために使用しています。
+  - VOICEVOXのインストール方法や使用方法については、公式サイトをご参照ください。:contentReference[oaicite:26]{index=26}
+
 ## 使用ライブラリ
 
 - Flask
@@ -55,3 +68,4 @@ ollama-voice-app/
 - VOICEVOX / Ollama はローカルで起動されます
 - audio_temp/ のWAVは自動削除されます
 - config.json に設定が保存されます
+- VOICEVOXを使用する際は、VOICEVOXの利用規約を遵守してください
