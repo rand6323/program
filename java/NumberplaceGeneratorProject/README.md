@@ -8,15 +8,14 @@
 - 問題とその解答を同時にコンソールに出力  
 
 ## ディレクトリ構成
+
+```
 NumberplaceGeneratorProject/
-
 ├ README.md
-
 ├ src/
-
 │   └ NumberplaceGenerator.java
-
 └ .gitignore
+```
 
 ## 起動方法
 
