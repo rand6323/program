@@ -36,11 +36,15 @@
 pip install -r requirements.txt
 ```
 
-2. VOICEVOX のパスを環境変数に設定（例：Windows）
+2. VOICEVOX のパスを環境変数に設定
+    1. スタートメニューを開き、「環境変数」と入力して「システム環境変数の編集」を選択します。
+    2. 「システムのプロパティ」ウィンドウが開いたら、「環境変数(N)…」ボタンをクリックします。
+    3. 「ユーザー環境変数」セクションで、「新規(N)…」ボタンをクリックします。
+    4. 「変数名」に `VOICEVOX_PATH`、「変数値」に `C:\path\to\VOICEVOX.exe` を入力します。
+    5. 「OK」をクリックしてウィンドウを閉じます。
 
-```bash
-setx VOICEVOX_PATH "C:\path\to\VOICEVOX.exe"
-```
+   ※ 設定後、新しいコマンドプロンプトを開くと、設定が反映されています。
+   
 ## 起動方法（Windows）
 
 1. `start_app.bat` をダブルクリックしてください
