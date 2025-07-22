@@ -1,0 +1,7 @@
+# config.py
+class Config:
+    VOICEVOX_SPEAKER_ID = 0
+    VOICEVOX_SPEED = 1.00
+    VOICEVOX_PITCH = 0.00
+    VOICEVOX_INTONATION = 1.00
+    OLLAMA_MODEL = ""

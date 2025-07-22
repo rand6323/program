@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+audio_temp/
+.env
+config.json
+settings.json
+*.log
+.idea/
+.vscode/
+*.sqlite3
+.DS_Store
+*.db
+*.bak
+venv/
