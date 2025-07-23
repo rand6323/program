@@ -52,4 +52,4 @@ meiro_vba/
 
 迷路を移動しているときの様子。
 
-![迷路の様子](./meiro_screenshot.jpg)
+![迷路の様子](./images/meiro_screenshot.jpg)
