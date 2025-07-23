@@ -50,4 +50,4 @@ meiro_vba/
 
 ## スクリーンショット
 
-![画像の説明](./screenshot.jpg)
+![迷路の様子](./meiro_screenshot.jpg)
