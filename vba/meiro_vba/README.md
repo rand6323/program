@@ -37,16 +37,13 @@
 - ゲーム終了後、フォームを閉じてください。
 
 ## ディレクトリ構成
+
+```
 meiro_vba/
-
 ├ forms/
-
 │   └ UserForm1.frm # ユーザーフォーム
-
 ├ modules/
-
 │   └ Module1.bas # 標準モジュール
-
 ├ meiroGenerate.xlsm 
-
 └ README.md
+```

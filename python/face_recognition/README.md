@@ -14,38 +14,27 @@ OpenCV（opencv-contrib-python）
 NumPy
 
 ## 機能
-capture.py: カメラ映像からキー入力で顔を収集
-
-detect: 顔検出と切り出し、detected/に保存
-
-train.py: 切り出し画像でモデルを学習し、models/face_recognizer.ymlを生成
-
-recognize.py: 画像またはWebカメラ映像から顔認識（矩形＋confidence表示）
+- capture.py: カメラ映像からキー入力で顔を収集
+- detect: 顔検出と切り出し、detected/に保存
+- train.py: 切り出し画像でモデルを学習し、models/face_recognizer.ymlを生成
+- recognize.py: 画像またはWebカメラ映像から顔認識（矩形＋confidence表示）
 
 ## ディレクトリ構成
+
+```
 face_recognition/
-
 ├ input/                  # カメラ撮影または画像選択した未処理の顔画像
-
 ├ detected/              # detect.pyで切り出した顔部分
-
 ├ models/
-
 │   └ face_recognizer.yml  # 学習済モデル
-
 ├ test/                  # 認識テスト用の画像（サンプル含む）
-
 ├ capture.py             # 顔画像収集スクリプト
-
 ├ detect.py              # 顔検出＆切り出しスクリプト
-
 ├ train.py               # 学習処理スクリプト
-
 ├ recognize.py           # 画像・リアルタイム顔認識スクリプト
-
 ├ requirements.txt       # 必要パッケージ一覧
-
 └ README.md              # 本ドキュメント
+```
 
 ## セットアップ
 ```
