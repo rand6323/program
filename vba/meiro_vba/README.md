@@ -47,3 +47,7 @@ meiro_vba/
 ├ meiroGenerate.xlsm 
 └ README.md
 ```
+
+## スクリーンショット
+
+![画像の説明](./screenshot.jpg)
