@@ -47,3 +47,9 @@ meiro_vba/
 ├ meiroGenerate.xlsm 
 └ README.md
 ```
+
+## スクリーンショット
+
+迷路を移動しているときの様子。
+
+![迷路の様子](./meiro_screenshot.jpg)
