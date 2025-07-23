@@ -1,0 +1,16 @@
+# Python のコンパイル済みファイル
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# ログファイル
+*.log
+
+# 一時ファイル
+*.bak
+*.swp
+
+# Tkinter の設定ファイル（必要に応じて）
+*.tcl
+*.tk
