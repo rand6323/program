@@ -73,3 +73,14 @@ ollama-voice-app/
 - audio_temp/ のWAVは自動削除されます
 - config.json に設定が保存されます
 - VOICEVOXを使用する際は、VOICEVOXの利用規約を遵守してください
+
+## スクリーンショット
+
+トーク画面
+
+![トーク](./images/ollama_voice_screenshot_1.png)
+
+設定画面
+
+![設定](./images/ollama_voice_screenshot_2.png)
+
