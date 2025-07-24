@@ -40,4 +40,4 @@ cd file-organizer
 
 画面
 
-![画面](./images/file_organizer_screenshot1.jpg)
+![画面](./images/file_organizer_screenshot.webp)
