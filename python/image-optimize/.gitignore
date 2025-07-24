@@ -1,0 +1,15 @@
+# Byte‑compiled Python files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.env/
+venv/
+env/
+
+# OSごとの不要ファイル
+.DS_Store
+Thumbs.db
+
+# 出力フォルダを無視：大きい生成画像をバージョン管理しない場合
+output_img/
