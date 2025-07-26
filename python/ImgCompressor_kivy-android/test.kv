@@ -1,0 +1,97 @@
+<MainLayout>:
+    orientation: 'vertical' # 縦方向に順に並べる
+    padding: dp(20), dp(20), dp(20), dp(50) # 左、右、上、下
+    spacing: dp(20) # レイアウト内の子同士の間隔
+
+    ScrollView:
+        size_hint: 1, 1  # 親レイアウトと同じ幅・高さ
+        do_scroll_x: False
+        do_scroll_y: True
+
+        GridLayout:
+            id: log_container
+            cols: 1
+            size_hint_y: None # 縦方向の大きさを自動サイズ
+            height: self.minimum_height # 子要素の合計高さに合わせて自身の高さを動的に変更する
+            spacing: dp(5)
+            
+            Label:
+                id: status
+                text: '準備完了'
+                size_hint_y: None
+                text_size: self.width, None # テキストの折り返し幅をラベルの幅に合わせ、高さは自動にする
+                height: self.texture_size[1] + dp(10)
+                markup: True # [b][/b] や [color=…] のようなマークアップタグが使用可能
+                valign: 'top'
+                halign: 'left'
+
+    Button:
+        text: '画像を選択して圧縮 (JPEG/PNG)'
+        size_hint_y: None
+        height: dp(50)
+        on_release: root.choose_image()
+    
+    BoxLayout:
+        orientation: 'vertical'
+        size_hint_y: None
+        height: dp(120)
+        Label:
+            text: f"JPEG quality: {int(root.quality_jpeg)} (70–95)"
+        Slider:
+            min: 70
+            max: 95
+            step: 1
+            value: root.quality_jpeg
+            value_track: True
+            value_track_color: 0,0,1,1
+            on_value: root.quality_jpeg = self.value
+    
+    Button:
+        text: '画像を選択してWebPに変換'
+        size_hint_y: None
+        height: dp(50)
+        on_release: root.choose_image_webp()
+    
+    BoxLayout:
+        orientation: 'vertical'
+        size_hint_y: None
+        height: dp(160)
+        Label:
+            text: f"WebP quality: {int(root.quality_webp)}"
+        Slider:
+            min: 1
+            max: 100
+            step: 1
+            value: root.quality_webp
+            value_track: True
+            value_track_color: 0,0.8,0,1
+            on_value: root.quality_webp = self.value
+
+        Label:
+            text: f"WebP method: {int(root.method_webp)}"
+        Slider:
+            min: 0
+            max: 6
+            step: 1
+            value: root.method_webp
+            value_track: True
+            value_track_color: 0,0.5,0.5,1
+            on_value: root.method_webp = self.value
+
+        Label:
+            text: "WebP Lossless"
+        BoxLayout:
+            size_hint_y: None
+            height: dp(30)
+            CheckBox:
+                group: 'loss_webp'
+                active: not root.lossless_webp
+                on_active: root.lossless_webp = False if self.active else root.lossless_webp
+            Label:
+                text: "False"
+            CheckBox:
+                group: 'loss_webp'
+                active: root.lossless_webp
+                on_active: root.lossless_webp = True if self.active else root.lossless_webp
+            Label:
+                text: "True"
