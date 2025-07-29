@@ -11,10 +11,11 @@
 
 ```
 NumberplaceGeneratorProject/
-├ README.md
-├ src/
-│   └ NumberplaceGenerator.java
-└ .gitignore
+├── README.md
+├── src/
+│       └ NumberplaceGenerator.java
+├── LICENSE.txt
+├── .gitignore
 ```
 
 ## 起動方法
@@ -80,3 +81,7 @@ java -cp src NumberplaceGenerator
 [7, 2, 9, 6, 5, 3, 4, 8, 1]
 [6, 3, 1, 8, 9, 4, 5, 2, 7]
 ```
+
+## ライセンス
+
+本プロジェクトはMITライセンスの下で公開されています。詳細は`LICENSE.txt`をご覧ください。

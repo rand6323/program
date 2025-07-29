@@ -48,6 +48,7 @@ ImgCompressor_kivy-android/
 ├── main.py                 # アプリ起動用エントリポイント
 ├── test.kv                 # メインレイアウトの kv ファイル
 ├── images/
+├── LICENSE.txt
 ├── .gitignore
 └── buildozer.spec
 ```
@@ -184,3 +185,8 @@ YYYYMMDD_HHMMSS[_fffffff].ext
 保存が完了すると、上部にメッセージが表示される
 
 ![出力画面](./images/ImgCompressor_screenshot_3.webp)
+
+
+## ライセンス
+
+本プロジェクトはMITライセンスの下で公開されています。詳細は`LICENSE.txt`をご覧ください。

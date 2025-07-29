@@ -46,6 +46,7 @@ compression-files/
 ├── output_dir/     # 出力用ディレクトリ
 ├── comp_7z.py      # 7z形式の圧縮スクリプト
 ├── comp_zip.py     # ZIP形式の圧縮スクリプト
+├── LICENSE.txt
 └── README.md
 ```
 
@@ -81,3 +82,7 @@ compression-files/
 ## 注意事項
 
 - パスワード付きの圧縮ファイルを解凍するには、対応する解凍ツールが必要です。
+
+## ライセンス
+
+本プロジェクトはMITライセンスの下で公開されています。詳細は`LICENSE.txt`をご覧ください。

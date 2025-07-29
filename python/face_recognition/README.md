@@ -23,17 +23,17 @@ NumPy
 
 ```
 face_recognition/
-├ input/                  # カメラ撮影または画像選択した未処理の顔画像
-├ detected/              # detect.pyで切り出した顔部分
-├ models/
-│   └ face_recognizer.yml  # 学習済モデル
-├ test/                  # 認識テスト用の画像（サンプル含む）
-├ capture.py             # 顔画像収集スクリプト
-├ detect.py              # 顔検出＆切り出しスクリプト
-├ train.py               # 学習処理スクリプト
-├ recognize.py           # 画像・リアルタイム顔認識スクリプト
-├ requirements.txt       # 必要パッケージ一覧
-└ README.md              # 本ドキュメント
+├── input/                  # カメラ撮影または画像選択した未処理の顔画像
+├── detected/              # detect.pyで切り出した顔部分
+├── models/
+│      └ face_recognizer.yml   # 学習済モデル
+├── test/                  # 認識テスト用の画像（サンプル含む）
+├── capture.py             # 顔画像収集スクリプト
+├── detect.py              # 顔検出＆切り出しスクリプト
+├── train.py               # 学習処理スクリプト
+├── recognize.py           # 画像・リアルタイム顔認識スクリプト
+├── requirements.txt       # 必要パッケージ一覧
+└── README.md              # 本ドキュメント
 ```
 
 ## セットアップ
@@ -70,3 +70,8 @@ input/フォルダ内の画像から顔を検出・切り出し、LBPHモデル�
 python recognize.py
 ```
 Webカメラからの映像をリアルタイムで取得し、事前に学習した顔認識モデルを用いて顔を検出・認識し、認識結果を画面上に表示。
+
+
+## ライセンス
+
+本プロジェクトはMITライセンスの下で公開されています。詳細は`LICENSE.txt`をご覧ください。

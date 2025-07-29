@@ -45,6 +45,7 @@ python convert_webp.py
 image-optimize/
 ├── convert_webp.py # JPEG/PNG → WebP に変換
 ├── image_resize.py # 画像を 50% にリサイズ
+├── LICENSE.txt
 ├── input_img/ # 入力画像フォルダ（*.jpg, *.png）
 └── output_img/ # 出力画像フォルダ（自動生成）
 ```
@@ -73,6 +74,10 @@ image-optimize/
 - 解像度：3024x4032
 - ファイルサイズ：約297KB
 - 削減率：約94.6%
+
+## ライセンス
+
+本プロジェクトはMITライセンスの下で公開されています。詳細は`LICENSE.txt`をご覧ください。
 
 ## 変更
 ### 2025‑07‑25

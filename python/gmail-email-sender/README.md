@@ -25,5 +25,10 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
 email_/
 ├── send_mail.py       # メール送信スクリプト
 ├── README.md          # このファイル
+├── LICENSE.txt
 └── .gitignore
 ```
+
+## ライセンス
+
+本プロジェクトはMITライセンスの下で公開されています。詳細は`LICENSE.txt`をご覧ください。

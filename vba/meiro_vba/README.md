@@ -40,12 +40,13 @@
 
 ```
 meiro_vba/
-├ forms/
-│   └ UserForm1.frm # ユーザーフォーム
-├ modules/
-│   └ Module1.bas # 標準モジュール
-├ meiroGenerate.xlsm 
-└ README.md
+├── forms/
+│         └ UserForm1.frm # ユーザーフォーム
+├── modules/
+│         └ Module1.bas # 標準モジュール
+├── meiroGenerate.xlsm 
+├── LICENSE.txt
+├── README.md
 ```
 
 ## スクリーンショット
@@ -53,3 +54,7 @@ meiro_vba/
 迷路を移動しているときの様子
 
 ![迷路の様子](./images/meiro_screenshot.webp)
+
+## ライセンス
+
+本プロジェクトはMITライセンスの下で公開されています。詳細は`LICENSE.txt`をご覧ください。

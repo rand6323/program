@@ -64,6 +64,7 @@ ollama-voice-app/
 ├── templates/
 │   ├── index.html
 │   └── settings.html
+├── LICENSE.txt
 └── README.md
 ```
 
@@ -84,3 +85,7 @@ ollama-voice-app/
 
 ![設定](./images/ollama_voice_screenshot_2.png)
 
+
+## ライセンス
+
+本プロジェクトはMITライセンスの下で公開されています。詳細は`LICENSE.txt`をご覧ください。

@@ -27,6 +27,7 @@ file-organizer/
 ├── organizer.py       # メインアプリケーション
 ├── requirements.txt   # 必要なライブラリ
 ├── README.md          # このファイル
+├── LICENSE.txt        # MITライセンス
 └── .gitignore         # Git 管理から除外するファイル
 ```
 
@@ -41,3 +42,8 @@ cd file-organizer
 画面
 
 ![画面](./images/file_organizer_screenshot.webp)
+
+
+## ライセンス
+
+本プロジェクトはMITライセンスの下で公開されています。詳細は`LICENSE.txt`をご覧ください。
