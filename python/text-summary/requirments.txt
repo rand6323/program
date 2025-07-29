@@ -1,0 +1,4 @@
+pysummarization
+mecab-python3
+pypdf
+fpdf2
